@@ -1,0 +1,64 @@
+.task-list {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.task-list h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list div {
+  cursor: pointer;
+}
+
+.task-list button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button{
+  margin-left:10px;
+}
+.task-list button:hover {
+  background-color: #c82333;
+}
+.create-task-link {
+  text-decoration: none; /* Remove underline */
+  background-color: #28a745; /* Green color, you can change this to your preferred color */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding inside the link */
+  font-size: 16px; /* Font size */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.create-task-link:hover {
+  background-color: #218838; /* Darker green color on hover */
+}

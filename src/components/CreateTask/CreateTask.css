@@ -1,0 +1,43 @@
+.create-task {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.error-message {
+  color: red;
+}
+.create-task h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.create-task form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-task input,
+.create-task textarea,
+.create-task select {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.create-task button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.create-task button:hover {
+  background-color: #0056b3;
+}
